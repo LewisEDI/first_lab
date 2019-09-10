@@ -69,3 +69,7 @@ end
 def volume_of_sphere(number)
   return (4/3.0)* (3.1415926) * (number **3)
 end
+
+def f_to_c(fahrenheit)
+  return (fahrenheit - 32) * 5 / 9
+end
